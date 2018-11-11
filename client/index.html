@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Blog Ratnikov IN</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+<div class="container" style="padding-top: 50px">
+<div class="row">
+    <div class="col s12 m8 offset-m2 l6 offset-l3" id="posts">
+        <div class="center">
+            <div class="preloader-wrapper active">
+                <div class="spinner-layer spinner-red-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                      </div><div class="gap-patch">
+                        <div class="circle"></div>
+                      </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>>
+    </div>
+</div>
+</div>
+<div class="fixed-action-btn">
+        <a class="btn-floating btn-large red modal-trigger" data-target="createform">
+          <i class="large material-icons">add</i>
+        </a>
+</div>
+<div id="createform" class="modal">
+        <div class="modal-content">
+          <h4>Новый пост</h4>
+          <div class="input-field">
+                <input id="title" type="text" class="validate">
+                <label for="title">Заголовок</label>
+          </div>        
+          <div class="input-field">
+                <textarea id="text" class="materialize-textarea"></textarea>
+                <label for="text">Описание</label>
+          </div>
+        </div>
+        <div class="modal-footer">
+            <a class="waves-effect waves-light btn" id="createPost"><i class="material-icons left">add</i>Создать пост</a>
+        </div>
+      </div>            
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+  </body>
+</html>
+      
